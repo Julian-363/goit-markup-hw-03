@@ -169,7 +169,8 @@ button.service-request {
 }
 
 button.service-request:hover {
-  color: var(--color-azul-oscuro);
+  font-size: 17px;
+  color: var(--color-blanco);
 }
 
 /* previous requirements */
@@ -208,6 +209,10 @@ button.service-request:hover {
   background: var(--color-gris-claro);
 }
 
+.cards-teachers {
+  padding-bottom: 94px;
+}
+
 li.teachers {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -220,8 +225,6 @@ li.teachers:hover {
 }
 
 .team {
-  padding-right: 100px;
-  padding-bottom: 70px;
   display: flex;
   justify-content: center;
   gap: 37px;
